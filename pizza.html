@@ -87,21 +87,21 @@
                     <label for="crust"><b>Size</b></label>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="small" id="small" value="option1">
+                        <input class="form-check-input" type="radio" name="small" id="size" value="option1">
                         <label class="form-check-label" for="size">
                             Small -> ksh.300
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="Medium" id="Medium" value="option1">
+                        <input class="form-check-input" type="radio" name="Medium" id="size" value="option1">
                         <label class="form-check-label" for="size">
                             Medium -> 500
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="large" id="large" value="option1">
+                        <input class="form-check-input" type="radio" name="large" id="size" value="option1">
                         <label class="form-check-label" for="size">
                             Large -> 1000
                         </label>
@@ -111,28 +111,28 @@
                 <div>
                     <label for="toppings"><b>Toppings </b></label>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="pepperoni" id="pepperoni" value="option1">
+                        <input class="form-check-input" type="radio" name="pepperoni" id="top" value="option1">
                         <label class="form-check-label" for="pepperoni">
                             pepperoni,cheese,onions
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="meat" id="bacon" value="option1">
+                        <input class="form-check-input" type="radio" name="meat" id="top" value="option1">
                         <label class="form-check-label">
                             bacon,beef slices,chicken slices,pepper,cheese
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="hawaiian" id="hawaiian" value="option1">
+                        <input class="form-check-input" type="radio" name="hawaiian" id="top" value="option1">
                         <label class="form-check-label">
                             Pineapple,ham,cheese,bacon
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="magheritta" id="mag" value="option1">
+                        <input class="form-check-input" type="radio" name="magheritta" id="top" value="option1">
                         <label class="form-check-label">
                             Cheese,pepper
                         </label>
@@ -150,23 +150,36 @@
             </form>
 
         </div>
-
+        <div class="col-md-6">
+            <h4>
+                YOUR CART
+            </h4>
+            <p>SIZE: <span class="size"></span>.</p>
+            <p>QUANTITY: <span class="number"></span>.</p>
+            <p>CRUST : <span class="crust "></span>.</p>
+            <p>TOPPINGS:<span class="toppings"></span>.</p>
+            <p>DEKIVERY DESTINATION: <span id="home"></span>.</p>
+            <p>AMOUNT:<span class="cost"></span></p>
+        </div>
     </div>
 
     <br>
     <h3>
-        OUR PIZZAS
+        OUR SPECIAL PIZZAS
     </h3>
     <div class="row">
         <div class="col-md-3">
+
             <img src="images/p1.jpg" alt="magheritta" srcset="">
         </div>
         <!-- <br> -->
+
         <div class="col-md-3">
-            <img src="images/p2.jpg" alt="" srcset="">
+
+            <img src="images/p2.jpg" alt="hawaiian" srcset="">
         </div>
         <div class="col-md-3">
-            <img src="images/p3.jpg" alt="" srcset="">
+            <img src="images/p3.jpg" alt="bacon bonanza" srcset="">
         </div>
     </div>
 
