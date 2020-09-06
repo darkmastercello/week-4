@@ -1,5 +1,5 @@
 # STARSTRUCK PIZZA
-This Independent project is based on creating a landing page for a fictional studio called delani studios.
+This Independent project is based on creating a website for starstruck pizza.
 #### {This is a web app for starstruck pizza.}, {09/06/2020}
 #### By **{Marcellus Githua Mwangi}**
 ## Description
