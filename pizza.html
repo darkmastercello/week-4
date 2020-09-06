@@ -39,73 +39,114 @@
     <h2>
         YOUR ORDER
     </h2>
+    <div class="row" id="order">
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label for="destination"><b>Destination</b>("Put appartment or home address")</label>
+                    <input type="text" class="form-control" id="home" aria-describedby="address"
+                        placeholder="e.g jogoo appartments, jogoo road" required>
+                </div>
 
-    <form>
-        <div class="form-group">
-            <label for="destination"><b>Destination</b>("Put appartment or home address")</label>
-            <input type="text" class="form-control" id="home" aria-describedby="address"
-                placeholder="e.g jogoo appartments, jogoo road" required>
+
+                <div class="form-group">
+                    <label for="floor"><b>Floor</b>(If it is an appartment)</label>
+                    <input type="text" class="form-control" id="floor" placeholder="e.g B5">
+                </div>
+
+
+                <div>
+                    <label for="crust"><b>Crust</b></label>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option1">
+                        <label class="form-check-label" for="crust">
+                            Crispy
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option1">
+                        <label class="form-check-label" for="crust">
+                            Stuffed
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option1">
+                        <label class="form-check-label" for="crust">
+                            Gluten-free
+                        </label>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <label for="crust"><b>Size</b></label>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="small" id="small" value="option1">
+                        <label class="form-check-label" for="size">
+                            Small
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Medium" id="Medium" value="option1">
+                        <label class="form-check-label" for="size">
+                            Medium
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="large" id="large" value="option1">
+                        <label class="form-check-label" for="size">
+                            Large
+                        </label>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <label for="toppings"><b>Toppings 1</b></label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="pepperoni" id="pepperoni" value="option1">
+                        <label class="form-check-label" for="pepperoni">
+                            pepperoni
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="large" id="bacon" value="option1">
+                        <label class="form-check-label">
+                            bacon
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="large" id="Pineapple" value="option1">
+                        <label class="form-check-label">
+                            Pineapple
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="large" id="Pineapple" value="option1">
+                        <label class="form-check-label">
+                            Pineapple
+                        </label>
+                    </div>
+                </div>
+
+
+
+                <br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
+    </div>
 
-
-        <div class="form-group">
-            <label for="floor"><b>Floor</b>(If it is an appartment)</label>
-            <input type="text" class="form-control" id="floor" placeholder="e.g B5">
-        </div>
-
-
-        <div>
-            <label for="crust"><b>Crust</b></label>
-
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
-                <label class="form-check-label" for="crust">
-                    Crispy
-                </label>
-            </div>
-
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
-                <label class="form-check-label" for="crust">
-                    Stuffed
-                </label>
-            </div>
-
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
-                <label class="form-check-label" for="crust">
-                    Gluten-free
-                </label>
-            </div>
-        </div>
-        <br>
-        <div>
-            <label for="crust"><b>Size</b></label>
-
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="small" id="small" value="option1">
-                <label class="form-check-label" for="size">
-                    Small
-                </label>
-            </div>
-
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="Medium" id="Medium" value="option1">
-                <label class="form-check-label" for="size">
-                    Medium
-                </label>
-            </div>
-
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="large" id="large" value="option1">
-                <label class="form-check-label" for="size">
-                    Large
-                </label>
-            </div>
-        </div>
-        <br>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
 
 
 
