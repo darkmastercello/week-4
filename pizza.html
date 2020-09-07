@@ -39,7 +39,7 @@
     <h2>
         YOUR ORDER
     </h2>
-    <div class="row" id="order">
+    <!-- <div class="row" id="order">
         <div class="col-md-6">
             <form>
                 <div class="form-group">
@@ -146,7 +146,7 @@
 
 
                 <br>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" id="submit">Submit</button>
             </form>
 
         </div>
@@ -161,8 +161,57 @@
             <p>DELIVERY DESTINATION: <span id="home"></span>.</p>
             <p>AMOUNT:<span class="cost"></span></p>
         </div>
+    </div> -->
+    <!-- order form -->
+    <div class="orders" id="order">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="p-3 mb-2 bg-secondary text-white">
+                    <h1 class="text-center" id="form-title">Order Pizza</h1>
+                    <div class="form-group row">
+                        <div class="col-md order-overlay text-center">
+                            <form class="col-md-8 text-center" id="user-form">
+                                <label>Pick your pizza Flavour:</label>
+                                <select class="custom-select custom-select-md mb-3 flavour" id="ptype" required>
+                                    <option value=""></option>
+                                    <option value="Veg Tikka">Veg Tikka</option>
+                                    <option value="Chicken Tikka">Chicken Tikka</option>
+                                    <option value="Periperi">Peri-Peri Chicken</option>
+                                    <option value="Hawaiian">Hawaiian</option>
+                                    <option value="Mushroom">Chicken and Mushroom</option>
+                                </select>
+                                <label>Chose your pizza Size:</label>
+                                <select class="custom-select custom-select-md mb-3" id="size" required>
+                                    <option value=""></option>
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                </select>
+                                <label for="crust">Choose your Crust:</label>
+                                <select class="custom-select custom-select-md mb-3" id="crust" required>
+                                    <option value=""></option>
+                                    <option value="thin">Thin </option>
+                                    <option value="thick">Thick </option>
+                                    <option value="Gluten-free">Gluten-free</option>
+                                </select>
+                                <label>Select Your Extra Toppings</label>
+                                <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                                    <option value=""></option>
+                                    <option value="Pineapple">Pineapple</option>
+                                    <option value="extracheese">extra cheese</option>
+                                    <option value="pepperoni">pepperoni</option>
+                                    <option value="greenpepper">Green Pepper</option>
+                                </select>
+                                <button type="submit" class="btn btn-success">
+                                    Checkout
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
     <br>
     <h3>
         OUR SPECIAL PIZZAS
